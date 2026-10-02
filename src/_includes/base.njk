@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | Shrikant Pillay</title>
+  <meta name="description" content="{{ summary or 'Shrikant Pillay — technology, AI, cloud and enterprise transformation.' }}">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/">Shrikant Pillay</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content | safe }}
+  </main>
+  <footer class="wrap footer">© {{ "now" | date: "%Y" }} Shrikant Pillay</footer>
+</body>
+</html>

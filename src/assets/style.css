@@ -1,0 +1,20 @@
+:root { font-family: Arial, sans-serif; color:#202124; background:#fff; }
+body { margin:0; line-height:1.65; }
+.wrap { max-width:900px; margin:0 auto; padding:0 24px; }
+.site-header { border-bottom:1px solid #e7e7e7; margin-bottom:56px; }
+.nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; }
+.nav a { text-decoration:none; color:#222; margin-left:22px; }
+.brand { font-weight:700; margin-left:0!important; }
+.hero { padding:42px 0 80px; }
+h1 { font-size:clamp(40px,6vw,68px); line-height:1.05; margin:0 0 18px; }
+h2 { line-height:1.2; }
+.lead { font-size:21px; color:#555; max-width:720px; }
+.button { display:inline-block; margin-top:18px; padding:11px 16px; border:1px solid #222; border-radius:8px; text-decoration:none; color:#222; }
+.post-card { padding:26px 0; border-bottom:1px solid #e7e7e7; }
+.post-card h2 { margin:0 0 6px; }
+.post-card h2 a { color:#222; text-decoration:none; }
+.meta { color:#777; font-size:14px; }
+.article { max-width:760px; }
+.article h1 { font-size:48px; }
+.article img { max-width:100%; height:auto; border-radius:10px; }
+.footer { border-top:1px solid #eee; margin-top:80px; padding-top:24px; padding-bottom:48px; color:#777; }
