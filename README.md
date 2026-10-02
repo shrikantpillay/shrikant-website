@@ -12,3 +12,4 @@ Pages CMS:
 - Sign in with GitHub
 - Install the Pages CMS GitHub App for this repository
 - Open the repository; `.pages.yml` defines the Blog Posts editor
+- new!
