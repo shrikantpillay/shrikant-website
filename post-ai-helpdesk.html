@@ -19,3 +19,102 @@
     nav {
       margin-bottom: 50px;
     }
+
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 42px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .meta {
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .back {
+      margin-top: 50px;
+    }
+
+    .back a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+
+  <article>
+
+    <h1>What I Learned Building an AI Helpdesk with Copilot Studio, Intune and ServiceNow</h1>
+
+    <div class="meta">
+      October 2026 · AI · Digital Workplace
+    </div>
+
+    <p>
+      Recently, I explored how an AI-based virtual assistant could move beyond
+      simply answering IT support questions and actually participate in resolving
+      endpoint issues.
+    </p>
+
+    <p>
+      The objective was straightforward: a user reports a problem such as
+      "My VPN is not working", and the assistant should understand the issue,
+      identify the likely cause, recommend a fix, and where appropriate trigger
+      remediation through endpoint management tools.
+    </p>
+
+    <h2>The Architecture</h2>
+
+    <p>
+      The solution can combine Copilot Studio as the conversational layer,
+      Microsoft Intune for endpoint actions, a knowledge repository for
+      troubleshooting guidance, and ServiceNow for ITSM integration.
+    </p>
+
+    <h2>What I Learned</h2>
+
+    <p>
+      One of the important lessons was that the AI assistant should not try to
+      solve every issue autonomously. The real value comes from orchestration:
+      understanding the user context, selecting an approved remediation action,
+      executing it safely, validating the outcome, and escalating when required.
+    </p>
+
+    <h2>Why This Matters</h2>
+
+    <p>
+      Traditional virtual assistants are largely focused on knowledge retrieval.
+      The next stage is moving from answering questions to executing controlled
+      actions across enterprise platforms.
+    </p>
+
+    <p>
+      This changes the conversation from "How many tickets can a chatbot answer?"
+      to "How many support journeys can be resolved end-to-end without human
+      intervention?"
+    </p>
+
+  </article>
+
+  <div class="back">
+    <a href="blog.html">← Back to Blog</a>
+  </div>
+
+</body>
+</html>
